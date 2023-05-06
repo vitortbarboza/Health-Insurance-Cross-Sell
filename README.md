@@ -1,7 +1,7 @@
 # Health Insurance Cross-Selling
 *Using Machine Learning to rank a list of customers most likely to buy a Car Insurance for a cross-sell campaign*
 
-![alt_text](https://github.com/igorvgp/DS-health-insurance-cross-sell/blob/main/media/health-insurance.jpg) 
+![alt_text](https://github.com/vitortbarboza/Health-Insurance-Cross-Sell/blob/main/media/health-insurance.jpg) 
 *The in-depth Python code explanation is available in [this](https://nbviewer.org/github/igorvgp/DS-health-insurance-cross-sell/blob/a9b98fa99501fc392dcd7942fc1c18b3c4999f20/Notebooks/health-insurance-cross-sell.html) Jupyter Notebook.*
 ## 1. Abstract
 
