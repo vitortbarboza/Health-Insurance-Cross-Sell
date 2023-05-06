@@ -2,7 +2,7 @@
 *Using Machine Learning to rank a list of customers most likely to buy a Car Insurance for a cross-sell campaign*
 
 ![alt_text](https://github.com/vitortbarboza/Health-Insurance-Cross-Sell/blob/main/media/health-insurance.jpg) 
-*The in-depth Python code explanation is available in [this](https://nbviewer.org/github/igorvgp/DS-health-insurance-cross-sell/blob/a9b98fa99501fc392dcd7942fc1c18b3c4999f20/Notebooks/health-insurance-cross-sell.html) Jupyter Notebook.*
+*The in-depth Python code explanation is available in [this](https://github.com/vitortbarboza/Health-Insurance-Cross-Sell/blob/main/Notebooks/health-insurance-cross-sell.ipynb) Jupyter Notebook.*
 ## 1. Abstract
 
 <p style="text-align: justify;">This Data Science Project was inspired by this <a href="https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction">kaggle Challenge</a> and presents the development of a Classification Machine Learning Model, more specifically a Learning to Rank Model, used to generate a propensity score to purchase a new product for a company's customer list.</p>
@@ -19,7 +19,7 @@ A demo of the solution can be seen in the gif below:
 
 <p style="text-align: justify;">Compared to a random selection of customers to be contacted, the machine learning model developed proved to be about <strong>3 times</strong> more efficient, generating an extra gain of <strong>35 million dollars</strong>.</p>
 
-The full solution can be seen on this [Notebook](https://nbviewer.org/github/igorvgp/DS-health-insurance-cross-sell/blob/a9b98fa99501fc392dcd7942fc1c18b3c4999f20/Notebooks/health-insurance-cross-sell.html)
+The full solution can be seen on this [Notebook](https://github.com/vitortbarboza/Health-Insurance-Cross-Sell/blob/main/Notebooks/health-insurance-cross-sell.ipynb)
 
 ## 2. Methodology
 
@@ -77,7 +77,7 @@ To direct your reading, below are links to the development carried out at each s
 	
 - A machine learning model to rank customers most likely to buy will increase sales force productivity and accelerate new market entry.
 	
-[Back to the top](#1-abstract) | [View Notebook](https://nbviewer.org/github/igorvgp/DS-health-insurance-cross-sell/blob/a9b98fa99501fc392dcd7942fc1c18b3c4999f20/Notebooks/health-insurance-cross-sell.html)
+[Back to the top](#1-abstract) | [View Notebook](https://github.com/vitortbarboza/Health-Insurance-Cross-Sell/blob/main/Notebooks/health-insurance-cross-sell.ipynb)
 
 ## 4. Data Understanding
 
@@ -115,7 +115,7 @@ Result: True
 
 Most of the new cars are already insured, thats why the hypotesis 1 (Customers with new cars are more interested in insurance) is false.
 
-[Back to the top](#1-abstract) | [View Notebook](https://nbviewer.org/github/igorvgp/DS-health-insurance-cross-sell/blob/a9b98fa99501fc392dcd7942fc1c18b3c4999f20/Notebooks/health-insurance-cross-sell.html)
+[Back to the top](#1-abstract) | [View Notebook](https://github.com/vitortbarboza/Health-Insurance-Cross-Sell/blob/main/Notebooks/health-insurance-cross-sell.ipynb)
 
 ## 5. Data Preparation
 
@@ -131,7 +131,7 @@ Most of the new cars are already insured, thats why the hypotesis 1 (Customers w
 - Region Code: [Frequency Encoding](https://datascience.stackexchange.com/questions/63749/why-does-frequency-encoding-work#:~:text=Frequency%20encoding%20is%20a%20widely,categorical%20features%20with%20high%20cardinality.)
 - Policy Sales Channel: [Frequency Encoding](https://datascience.stackexchange.com/questions/63749/why-does-frequency-encoding-work#:~:text=Frequency%20encoding%20is%20a%20widely,categorical%20features%20with%20high%20cardinality.)
 
-[Back to the top](#1-abstract) | [View Notebook](https://nbviewer.org/github/igorvgp/DS-health-insurance-cross-sell/blob/a9b98fa99501fc392dcd7942fc1c18b3c4999f20/Notebooks/health-insurance-cross-sell.html)
+[Back to the top](#1-abstract) | [View Notebook](https://github.com/vitortbarboza/Health-Insurance-Cross-Sell/blob/main/Notebooks/health-insurance-cross-sell.ipynb)
 
 ## 6. Machine Learning Modeling
 
@@ -154,7 +154,7 @@ The results obtained are shown below:
 
 The XGBoost Model was chosen because it presented the best results followed by the Random Forest model. As the training time of XGBoost model is two times faster than Random Forest, this model was the best option.
 
-[Back to the top](#1-abstract) | [View Notebook](https://nbviewer.org/github/igorvgp/DS-health-insurance-cross-sell/blob/a9b98fa99501fc392dcd7942fc1c18b3c4999f20/Notebooks/health-insurance-cross-sell.html)
+[Back to the top](#1-abstract) | [View Notebook](https://github.com/vitortbarboza/Health-Insurance-Cross-Sell/blob/main/Notebooks/health-insurance-cross-sell.ipynb)
 
 ## 7. Model Performance
 
@@ -201,7 +201,7 @@ With 40,000 calls sales team will call 88% of the interested customers.
 
 With 35,000 calls sales team will call 80% of the interested customers.
 
-[Back to the top](#1-abstract) | [View Notebook](https://nbviewer.org/github/igorvgp/DS-health-insurance-cross-sell/blob/a9b98fa99501fc392dcd7942fc1c18b3c4999f20/Notebooks/health-insurance-cross-sell.html)
+[Back to the top](#1-abstract) | [View Notebook](https://github.com/vitortbarboza/Health-Insurance-Cross-Sell/blob/main/Notebooks/health-insurance-cross-sell.ipynb)
 
 ## 8. Deploy
 
@@ -215,7 +215,7 @@ To build this solution, the architecture below was used:
 
 <img src="media/deploy_diagram.png" width="600">
 
-[Back to the top](#1-abstract) | [View Notebook](https://nbviewer.org/github/igorvgp/DS-health-insurance-cross-sell/blob/a9b98fa99501fc392dcd7942fc1c18b3c4999f20/Notebooks/health-insurance-cross-sell.html)
+[Back to the top](#1-abstract) | [View Notebook](https://github.com/vitortbarboza/Health-Insurance-Cross-Sell/blob/main/Notebooks/health-insurance-cross-sell.ipynb)
 
 ## 9. Lessons Learned
 
